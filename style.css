@@ -13,6 +13,7 @@ h1 {
 
 section {
     display: flex;
+    padding-bottom: 100px;
 }
 
 .half-width {
@@ -33,7 +34,36 @@ section {
     border-radius: 10px;
 }
 
+.first-half {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.second-half {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.first-half img {
+    width: 70%;
+}
+
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.download-resume {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.section2 {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
